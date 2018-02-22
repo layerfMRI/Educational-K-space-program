@@ -50,7 +50,7 @@
 % Get rid of inner k-space lines
 %   for j=1:128      
 %         for k=1:128
-%         if (j-64)*(j-64)+(k-64)*(k-64)-30*30<0
+%         if (j-64)*(j-64)+(k-64)*(k-64)-10*10<0
 %             A(j,k)=0;
 %        end
 %        end
